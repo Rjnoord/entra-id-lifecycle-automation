@@ -5,7 +5,8 @@ variable "department_groups" {
     "Finance",
     "HR",
     "Sales",
-    "Contractors"
+    "Contractors",
+    "security operations"
   ]
 }
 
