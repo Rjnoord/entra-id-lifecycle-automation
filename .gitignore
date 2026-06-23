@@ -5,3 +5,5 @@
 crash.log
 *.tfvars
 .DS_store
+terraform.tfstate
+terraform.tfstate.backup
