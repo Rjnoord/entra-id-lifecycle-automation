@@ -1,11 +1,12 @@
 variable "department_groups" {
+  description = "Department security groups managed in Microsoft Entra ID."
+  type        = list(string)
   default = [
-    "cloud Engineers",
-    "IAM_Engineers",
+    "Cloud Engineers",
+    "IAM Engineers",
     "Finance",
     "HR",
     "Sales",
     "Contractors"
   ]
 }
-
