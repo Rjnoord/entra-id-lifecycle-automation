@@ -6,6 +6,7 @@ terraform {
     storage_account_name = "sttfstateaad268ea2"
     container_name       = "tfstate"
     key                  = "azure-ad-automation/terraform.tfstate"
+    use_azuread_auth     = true
   }
 
   required_providers {
